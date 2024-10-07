@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaire</title>
+</head>
+<body>
+    <!--Heading starts here-->
+    <h1>Website Design Questionnaire</h1>
+    <!--Heading ends here-->
+    <!--pragraph  start here-->
+    <p>Please fill out this questionnaire to help us better understand your project requirement. </p>
+    <!--pragraph  start here-->
+    <!--general information starts here-->
+    <!--form starts here-->
+<form action="#">
+    <section>
+    <h1>General Information</h1>
+    <label for="name">Name:</label>
+    <input type="text" id="name"  name="name" required><br>
+    <br>
+    <label for="eamil">Email:</label>
+    <input type="email" id="email" name="eamil"required>
+<br><br>
+    <label for="c_name">Company:</label>
+    <input type="text" id="c_name" name="c_name"required>
+</section>
+ <!--general information ends here-->
+ <!--projects details starts here-->
+ <section>
+    <h1>Project Details</h1>
+    <label for="pr_details">Project Type :</label>
+    <select name="pr_det" id="pr_details">
+    <option value="select">select project type</option>
+    <option value="web">Web application</option>
+    <option value="mobap">Mobile application</option>
+    <option value="dskapp">Desktop application</option>
+    <option value="api">API development</option>
+    <option value="ai">Artificial intelligence</option>
+    <option value="blkch">Blockchain</option>
+    <option value="dbms">Database Projects</option>
+    <option value="game">Game development</option>
+    <option value="cloud">Cloud development</option>
+    <option value="iot"> IOT(Internet of Things) development</option>
+    
+</select> <br>
+<br>
+<label for="pr_desc">Project Description:</label>
+<textarea name="pr_desc" id="pr_desc" rows="3" cols="20">
+</textarea><br>
+<br>
+<label for="text">Target Audience:</label>
+<input type="text" name="text" id="text">
+<!--projects details ends here-->
+ </section>
+ <!--Design preferences starts here-->
+<section>
+    <h1>Design Preferences</h1>
+    <label for="text">Color Scheme:</label>
+    <input type="text" id="text" name="text" required><br>
+    <br>
+    <label for="txt">Font Preferences:</label>
+    <input type="txt" id="txt" name="txt" required><br>
+    <br>
+    <label for="txtt">Style Preferences:</label>
+    <input type="txtt" id="txtt" name="txtt" required><br>
+
+</section>
+<!--Design preferences ends here-->
+<!--Additional information starts here-->
+<section>
+    <h1>Additional Information</h1>
+    <label for="texxt">Budget:</label>
+    <input type="texxt" id="texxt" name="texxt" required><br>
+        <br>
+    <label for="text">Timeline:</label>
+    <input type="text" id="text" name="text" placeholder="eg 3 months" required>
+    <br><br>
+     <label for="ad_notes">Additional notes:</label>
+     <textarea name="ad_notes" id="ad_notes" rows="3" cols="20">
+     </textarea><br>
+</section>
+<!--Additional information starts here-->
+        <button type="submit">Submit Questionnaire</button>
+        <!--footer section starts here-->
+        <footer>
+            <p>&copy; 2024 Questionnaire.All Rights Reserved</p>
+        </footer>
+         <!--footer section starts here-->
+</form>
+<!--form ends here-->
+</body>
+</html>
